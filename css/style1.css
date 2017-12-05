@@ -1,0 +1,155 @@
+html{
+	width: 960px;
+	height: 2000px;
+	margin: auto;
+}
+body{
+	width: 100%
+}
+
+.container{
+	margin: auto 15px;
+	height: auto;
+}
+.header{
+	margin: auto;
+	width: 100%;
+}
+.logo{
+	margin: 0 auto;	
+	margin-top: 44px;
+	width: 340px;
+	height: 93px;
+	background-image: url(../img/logo.jpg);
+	
+
+}
+.nav{
+	width: 100%;
+	margin-top: 56px!important;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+
+}
+.gallery span{
+	font-family: Britannic Bold;
+	font-size: 25PX;	
+	color:white;
+	padding: 25px;	
+	letter-spacing: 2px;
+	background-color: black;
+}
+.gallery{
+	
+	width: 150px;	
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 24px;
+	padding: 20px 0px;
+}
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial Black;
+	font-size: 16px;
+	color: lightgray;
+	padding: 16px 30px;
+
+}
+.photo img{
+	width:300px;
+	height: 300px;
+	padding-bottom:20px;
+	padding-right:10px;
+	float: left;
+}
+.photo img:nth-child(3) {
+	margin-right:0px;
+	float:left;
+}
+.footer{
+	height: 122px;	
+	background-color: #000111;
+	width: 100%;
+	margin-top: 20px;
+}
+.copy p{
+font-family: "arialmt regular";
+font-size: 12px;
+color: #fff;
+}
+.button1,.button2,.button3,.button4{
+	height: 44px;
+	width:44px;
+	float: left;
+	margin-right: 10px;
+}
+.button1 a{
+	float: left;
+	height: 44px;
+	width:44px;
+	background-image: url(../img/icons/icon-facebook.jpg);
+	display:block;
+}
+.button1 a:hover{
+	background-image: url(../img/icons/icon-facebook-hover.jpg);
+}
+.button2 a{
+	float: left;
+	height: 44px;
+	width:44px;
+	background-image: url(../img/icons/icon-googleplus.jpg);
+	display:block;
+}
+.button2 a:hover{
+	background-image: url(../img/icons/icon-googleplus-hover.jpg);
+}
+.button3 a{
+	float: left;
+	height: 44px;
+	width:44px;
+	background-image: url(../img/icons/icon-pinterest.jpg);
+	display:block;
+}
+.button3 a:hover{
+	background-image: url(../img/icons/icon-pinterest-hover.jpg);
+}
+.button4 a{
+	float: left;
+	height: 44px;
+	width:44px;
+	background-image: url(../img/icons/icon-twitter.jpg);
+	display:block;
+}
+.button4 a:hover{
+	background-image: url(../img/icons/icon-twitter-hover.jpg);
+}
+
+.buttonn{
+	float: right;
+	width: 250px;
+	padding-right: 20px;
+	padding-top:42px;
+}
+.copy{
+	width: 350px;
+	padding-top:42px;
+	float: left;
+	padding-left: 150px;
+}
+.clear{
+	clear:both;
+}
